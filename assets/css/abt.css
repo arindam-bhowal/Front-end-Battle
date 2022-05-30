@@ -1,0 +1,60 @@
+.mainContainer::before{
+    content: "";
+    position: absolute;
+    background:url('../images/hero.jpg') no-repeat center center/cover;
+    object-fit: 100%;
+    width: 98%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+body{
+    margin: auto;
+    width: 98%;
+    background : rgb(157, 114, 114);
+    color : white;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainContainer{
+    display : flex;
+    flex-direction : column;
+    gap : 1em;
+}
+
+.abt{
+    display : flex;
+    flex-direction : column;  
+    /* border : 1px solid white; */
+    justify-content : center;
+    align-items : center;
+    border-radius : 5px;
+}
+
+.abt p{
+    font-family : Ink Free;
+}
+#about{
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size : 3em;
+    color : white;
+}
+
+.objectives{
+    /* border : 1px solid white; */
+    width : 80%;
+    border-radius : 5px;
+    padding : 5px;
+}
+.objectives h1{
+    margin-left : 20px;
+}
+
+.secretary{
+    display : flex;
+    flex-direction : column;
+    /* border : 1px solid white; */
+    border-radius : 5px;
+    padding-left: 20px;
+}
